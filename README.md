@@ -2,7 +2,12 @@
 Script simples em python para controlar LEDs conectados ao arduino através de comandos de voz. Para isso basta seguir as seguintes configurações:
 
 ### No arduino:
-Primeiro, monte fisicamente o arduino conforme a imagem presente neste repositório. Depois, acesse a IDE do Arduino para compilar e enviar o exemplo `StandardFirmata` presente em: `Arquivo > Exemplos > Firmata > StandardFirmata`.
+Primeiro, monte fisicamente o arduino conforme a imagem:
+
+<img height="300" src="motagem-fisica-do-arduino.png" alt="My cool logo"/>
+
+
+Depois, acesse a IDE do Arduino para compilar e enviar o exemplo `StandardFirmata` presente em: `Arquivo > Exemplos > Firmata > StandardFirmata`.
 > OBS: Verifique a porta onde o computador de somunica com o arduino, pois tal porta será requisitada no script em python.
 
 ### No computador:

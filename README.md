@@ -24,6 +24,13 @@ board = Arduino('COM4')
 ### Agora é só se divertir!
 Execute o script em python falando os comandos e as cores.
 
+### Frases aceitas:
+As frases aceitas pelo código segue um padrão de `comando + cor(es)`, onde é reconhecida apenas um comando (o último dito na frase) e uma ou mais cores. Vale ressaltar que os comandos já estão pré-definidas na variável `comandosLed` e as cores estão pré-definidas na variável `coresLed`.
+Por exemplo:
+- `Acender` led `verde` -> acende o led verde.
+- Apagar led `vermelho e verde` -> apaga os leds vermelho e verde.
+- Acender e `Apagar` led `amarelo e verde` -> apaga os leds amarelo e verde.
+
 ### Referências:
 - Programando Arduino em Python [PyFirmata] https://www.linkedin.com/pulse/programando-arduino-em-python-pyfirmata-wellington-c-faria
 - Reconhecimento de Voz com Python: Faça seu primeiro Olá Mundo com Speech Recognition! https://medium.com/@suzana.svm/reconhecimento-voz-python-35a5023767ca
